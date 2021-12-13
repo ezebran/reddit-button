@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import Link from 'next/link'
 import {colors} from './theme'
 
 export const NavbarContainer = styled.div`

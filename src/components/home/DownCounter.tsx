@@ -5,10 +5,10 @@ type CounterProps = {
     isRun: boolean,
     setCount: React.Dispatch<React.SetStateAction<number>>,
     count: number,
-    name: string
+    isSend: boolean
 }
 
-const DownCounter = ({isRun, setCount, count, name}:CounterProps) => {
+const DownCounter = ({isRun, setCount, count, isSend}:CounterProps) => {
 
 
     if(count > 0 && isRun){ // Count down
@@ -17,7 +17,7 @@ const DownCounter = ({isRun, setCount, count, name}:CounterProps) => {
     
     
     return (
-        <CountText name={name}>
+        <CountText isSend={isSend}>
             {count}s
         </CountText>
     )

@@ -9,11 +9,11 @@ const Navbar: React.FC = () => (
         <Image src={LogoSrc} width={125} height={44} />
         <Nav>
             <Link href="/">
-                <NavLink>Home</NavLink>
+                <NavLink>Inicio</NavLink>
             </Link>
             
             <Link href="/Records">
-                <NavLink>Records</NavLink>
+                <NavLink>Rankings</NavLink>
             </Link>
         </Nav>
         
