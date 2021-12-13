@@ -1,5 +1,10 @@
-export const useColors = (color) => {
+type useColorsProps = {
+    color: number
+}
+
+export const useColors = ({color}: useColorsProps) => {
     let userColor = "#ffffff";
+
 
     if(color <= 60 && color >= 52){
         userColor = "#7e57c2"
