@@ -3,7 +3,6 @@ import { useColors } from '@/hooks/useColors'
 
 type RecordProps = {
     username: string,
-    id: number,
     color: number,
     key: number
 }

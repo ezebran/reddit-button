@@ -8,6 +8,10 @@ import { ChangeEvent, FormEvent, useState, useEffect } from 'react'
 import { useColors } from '@/hooks/useColors'
 import Link from 'next/link'
 
+type homeProps = {
+  count: number
+}
+
 export default function Home() {
 
   const [isRun, setIsRun] = useState(true) //Check if the count down run

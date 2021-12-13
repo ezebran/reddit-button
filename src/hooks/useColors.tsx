@@ -1,8 +1,9 @@
 type useColorsProps = {
-    color: number
+    color: number,
+    count: number
 }
 
-export const useColors = ({color}: useColorsProps) => {
+export const useColors = (color: number): string => {
     let userColor = "#ffffff";
 
 
